@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://git.heroku.com/willie-wetz-django-blog.git
+	fetch = +refs/*:refs/*
+	mirror = true
