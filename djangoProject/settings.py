@@ -143,6 +143,7 @@ DATABASES['default'] = dj_database_url.config()
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 try:
     from .local_settings import *
 except ImportError:
